@@ -58,5 +58,11 @@
     <title>test</title>
     <url>/2021/05/29/test/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>qwe</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
   </entry>
 </search>
