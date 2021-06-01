@@ -4,6 +4,8 @@
     <title>Hello World</title>
     <url>/2021/05/29/hello-world/</url>
     <content><![CDATA[<p>既是开始…也是最后的话：</p>
+<span id="more"></span>
+
 <p>大学四年就这样过去了，感觉什么也没留下，以前的回忆有好有坏，总是以为自己很强，有数不尽的精力，可以实现所有事情，然而最后的结局却是始料未及，可能心越大飞得越高，摔的就会越狠吧，这次的教训真的可以使我铭记一辈子…</p>
 <p>但事情总会过去的，事情也会随着时间不断流逝，无论好事坏事，带给人的感觉都会慢慢变淡，扪心自问，过去我确实做了很多错事，也走了很多弯路，但我不想放弃，我还有我的梦想，我想再努力一把…</p>
 <p>曾经有搭建过很多博客，也都尽然丢失了，这次想做一个全新的开始，也是对自己的一个交代，这片空间就是我的世界，我不会再丢掉你了，我会好好守护好你，一起坚持下去。</p>
@@ -16,6 +18,50 @@
       </categories>
       <tags>
         <tag>开始</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Logo设计</title>
+    <url>/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>虽然自己并没有设计天赋，但是想至少人生在世可以有一个属于自己的标志</p>
+<p>它可以不为大众所知，但是要有自己的想法</p>
+<p>它可以不被主流喜欢，但是要有属于自己的</p>
+<p>它可以不那么绚丽多彩，但是一定要独一无二</p>
+<span id="more"></span>
+
+<h2 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h2><ul>
+<li><p>LOGO中的所有线度数只有30%,90%,120%</p>
+</li>
+<li><p>LOGO由三个黄金比六边形为框架组成</p>
+</li>
+<li><p>LOGO左右对称</p>
+</li>
+<li><p>LOGO包含G，H字母</p>
+</li>
+<li><p>LOGO取色为极暗正灰</p>
+</li>
+</ul>
+<h2 id="形状设计"><a href="#形状设计" class="headerlink" title="形状设计"></a>形状设计</h2><p>外框正六边形，翻转角度90%，宽度100px</p>
+<p>内框正六边形，比例为61.8%，即61.8px，与外框正六边形重心重合</p>
+<p>最内侧正六边形，比例为内框正六边形(1-0.618)%，即23.6076px，与内框正六边形重心重合</p>
+<p><img src="image.png"></p>
+<p>画平行于边的线，组合成下方图像（此图主要展示结构及思路）</p>
+<p><img src="image_1.png"></p>
+<p>最后类比，思路不变，三个正六边形保持黄金比例，其中前两行内框为0.618，第三行为1-0.618，效果如图</p>
+<p><img src="image_2.png"></p>
+<h2 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h2><p>LOGO取色：</p>
+<p><strong>#2c2c2c</strong></p>
+<p>#232323是极暗度的灰色阴影。</p>
+<p>在RGB三原色光模式中，#232323是由13.73％的红色，13.73％的绿色和13.73％的蓝色组成。</p>
+<p>在HSL色彩空间里，#232323有0度的色调，0％的饱和度以及14％的亮度。这种颜色的波长将近0纳米。</p>
+<p><img src="image_3.png"></p>
+<h2 id="寓意"><a href="#寓意" class="headerlink" title="寓意"></a>寓意</h2><p><img src="image_4.png"></p>
+]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>LOGO</tag>
       </tags>
   </entry>
 </search>
