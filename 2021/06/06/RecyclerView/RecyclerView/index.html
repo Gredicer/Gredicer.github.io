@@ -20,26 +20,25 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="虽然自己并没有设计天赋，但是想至少人生在世可以有一个属于自己的标志 它可以不为大众所知，但是要有自己的想法 它可以不被主流喜欢，但是要有属于自己的 它可以不那么绚丽多彩，但是一定要独一无二">
+  <meta name="description" content="RecyclerView是一个Android中列表展示的控件，可以实现各种列表的展示，包括了多内容、多类型、横向竖向、多列、动画、点击长按等各种效果">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Logo设计">
-<meta property="og:url" content="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/index.html">
+<meta property="og:title" content="RecyclerView使用与理解">
+<meta property="og:url" content="http://example.com/2021/06/06/RecyclerView/RecyclerView/index.html">
 <meta property="og:site_name" content="Gredicer&#39;s blog">
-<meta property="og:description" content="虽然自己并没有设计天赋，但是想至少人生在世可以有一个属于自己的标志 它可以不为大众所知，但是要有自己的想法 它可以不被主流喜欢，但是要有属于自己的 它可以不那么绚丽多彩，但是一定要独一无二">
+<meta property="og:description" content="RecyclerView是一个Android中列表展示的控件，可以实现各种列表的展示，包括了多内容、多类型、横向竖向、多列、动画、点击长按等各种效果">
 <meta property="og:locale">
-<meta property="og:image" content="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/image.png">
-<meta property="og:image" content="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/image_1.png">
-<meta property="og:image" content="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/image_2.png">
-<meta property="og:image" content="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/image_3.png">
-<meta property="og:image" content="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/image_4.png">
-<meta property="article:published_time" content="2021-05-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2021-06-01T01:22:03.209Z">
+<meta property="og:image" content="http://example.com/2021/06/06/RecyclerView/RecyclerView/image.png">
+<meta property="og:image" content="http://example.com/2021/06/06/RecyclerView/RecyclerView/image_1.png">
+<meta property="og:image" content="http://example.com/2021/06/06/RecyclerView/RecyclerView/image_2.png">
+<meta property="og:image" content="http://example.com/2021/06/06/RecyclerView/RecyclerView/image_3.png">
+<meta property="article:published_time" content="2021-06-05T16:00:00.000Z">
+<meta property="article:modified_time" content="2021-06-06T05:43:17.385Z">
 <meta property="article:author" content="Gredicer">
-<meta property="article:tag" content="LOGO">
+<meta property="article:tag" content="Android">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/image.png">
+<meta name="twitter:image" content="http://example.com/2021/06/06/RecyclerView/RecyclerView/image.png">
 
-<link rel="canonical" href="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/">
+<link rel="canonical" href="http://example.com/2021/06/06/RecyclerView/RecyclerView/">
 
 
 <script id="page-configurations">
@@ -52,7 +51,7 @@
   };
 </script>
 
-  <title>Logo设计 | Gredicer's blog</title>
+  <title>RecyclerView使用与理解 | Gredicer's blog</title>
   
 
 
@@ -178,7 +177,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/06/RecyclerView/RecyclerView/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://pic3.zhimg.com/v2-620e23eb32055637ee4c5a258f01a12c_xl.jpg">
@@ -191,7 +190,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Logo设计
+          RecyclerView使用与理解
         </h1>
 
         <div class="post-meta">
@@ -202,7 +201,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-06-01 00:00:00 / Modified: 09:22:03" itemprop="dateCreated datePublished" datetime="2021-06-01T00:00:00+08:00">2021-06-01</time>
+              <time title="Created: 2021-06-06 00:00:00 / Modified: 13:43:17" itemprop="dateCreated datePublished" datetime="2021-06-06T00:00:00+08:00">2021-06-06</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -210,7 +209,7 @@
               </span>
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a>
+                  <a href="/categories/Android/" itemprop="url" rel="index"><span itemprop="name">Android</span></a>
                 </span>
             </span>
 
@@ -230,8 +229,8 @@
       </span>
       <span class="post-meta-item-text">Valine: </span>
     
-    <a title="valine" href="/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/" itemprop="commentCount"></span>
+    <a title="valine" href="/2021/06/06/RecyclerView/RecyclerView/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/06/06/RecyclerView/RecyclerView/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -246,39 +245,95 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>虽然自己并没有设计天赋，但是想至少人生在世可以有一个属于自己的标志</p>
-<p>它可以不为大众所知，但是要有自己的想法</p>
-<p>它可以不被主流喜欢，但是要有属于自己的</p>
-<p>它可以不那么绚丽多彩，但是一定要独一无二</p>
+        <p>RecyclerView是一个Android中列表展示的控件，可以实现各种列表的展示，包括了多内容、多类型、横向竖向、多列、动画、点击长按等各种效果</p>
 <span id="more"></span>
 
-<h2 id="最终效果"><a href="#最终效果" class="headerlink" title="最终效果"></a>最终效果</h2><ul>
-<li><p>LOGO中的所有线度数只有30%,90%,120%</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>相信RecyclerView对Android初学者来说是一个比较难理解的部分，因为它会涉及到很多部分</p>
+<p>比如我在最开始的时候就很难理解为什么要用layoutManager和adapter，我想直接定义子布局，再定义子元素内容，最后一个列表赋值到RecyclerView不就可以了吗</p>
+<p>这篇文章主要是为了对RecyclerView有更好的理解，可以真正明白为什么要这样做，如果可以回答上来下面的问题的话，说明对RecyclerView是有比较清晰的理解了</p>
+<p>ReyclerView有几部分？为什么要有这几部分？</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/b4bb52cdbeb7">RecyclerView的基本实现</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_33275597/article/details/93849695">RecyclerView 原理</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/CymChad/BaseRecyclerViewAdapterHelper">BaseQuickAdapter的Github库</a></p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="直接实现"><a href="#直接实现" class="headerlink" title="直接实现"></a>直接实现</h3><p>如果想先尝试实现效果，尽快可以看到一个可用的，简单的列表展示，可以直接点击参考链接中的第一个，效果如下：</p>
+<p><img src="image.png"></p>
+<h3 id="讲解"><a href="#讲解" class="headerlink" title="讲解"></a>讲解</h3><h4 id="组成部分"><a href="#组成部分" class="headerlink" title="组成部分"></a>组成部分</h4><p>RecyclerView需要了解以下六部分：</p>
+<ul>
+<li><p>LayoutManager：负责Item布局的显示管理</p>
 </li>
-<li><p>LOGO由三个黄金比六边形为框架组成</p>
+<li><p>Adapter：负责每一个Item的视图创建</p>
 </li>
-<li><p>LOGO左右对称</p>
+<li><p>ViewHolder：负责Item视图的子布局</p>
 </li>
-<li><p>LOGO包含G，H字母</p>
+<li><p>Recycler：负责View的缓存处理</p>
 </li>
-<li><p>LOGO取色为极暗正灰</p>
+<li><p>ItemDecoration：负责Item视图添加子View，例如添加分割线</p>
+</li>
+<li><p>ItemAnimator：负责处理动画效果</p>
 </li>
 </ul>
-<h2 id="形状设计"><a href="#形状设计" class="headerlink" title="形状设计"></a>形状设计</h2><p>外框正六边形，翻转角度90%，宽度100px</p>
-<p>内框正六边形，比例为61.8%，即61.8px，与外框正六边形重心重合</p>
-<p>最内侧正六边形，比例为内框正六边形(1-0.618)%，即23.6076px，与内框正六边形重心重合</p>
-<p><img src="image.png"></p>
-<p>画平行于边的线，组合成下方图像（此图主要展示结构及思路）</p>
+<h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><p>现在Gredicer，也就是小G，有了一个想法</p>
+<p>“在一个界面上如果有多个相同类别的显示内容，一个一个复制太麻烦了，要是能直接读取列表里的内容显示出来就好了”</p>
+<p>此时，RecyclerView的雏形就出来了：</p>
+<ul>
+<li><p>通过List来定义一个存放名字的列表</p>
+</li>
+<li><p>通过ItemView来定义名字的布局，即用TextView显示</p>
+</li>
+<li><p>通过RecyclerView来整合，并且在界面中引用即可展示</p>
+</li>
+</ul>
 <p><img src="image_1.png"></p>
-<p>最后类比，思路不变，三个正六边形保持黄金比例，其中前两行内框为0.618，第三行为1-0.618，效果如图</p>
+<p>这个时候其实基本的思路有了，但是会有几个问题</p>
+<ol>
+<li><p>如果这样定义的话，如果是单一的文本和TextView对应还好，但是不可能说每次我都是名字直接显示，假如是性别或者年龄，可能需要做判断，比如没有输入的话我就显示“无”，或者对List中的内容做处理再显示到ItemView中</p>
+</li>
+<li><p>内容和ItemView显示界面有大量的绑定，比如我一个商品列表，里面有很多图片和文字，我可能会需要一个专门的地方来做这些事</p>
+</li>
+<li><p>我想让每个Item可以点击或者长按，并且可以有相应的显示，比如跳转或者弹窗显示相应的内容</p>
+</li>
+<li><p>每个RecyclerView对应一个显示效果的话太麻烦了，我想只写一次定义，可以在很多地方用</p>
+</li>
+</ol>
+<p>OK，有了问题就要解决</p>
+<p>于是，小G又想到了，我可以专门用VIewHolder来做UI和内容的绑定，同时也解决了内容判断处理的问题，然后专门用一个适配器Adapter，把这一整个部分，包括点击或者其他的事件都写在这里，RecyclerView只需要展示就行了，在各个界面写RecyclerView，然后如果需要什么样的效果就绑定Adapter就可以了</p>
+<p>很好，这样的话整个结构就变成了如下所示</p>
 <p><img src="image_2.png"></p>
-<h2 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h2><p>LOGO取色：</p>
-<p><strong>#2c2c2c</strong></p>
-<p>#232323是极暗度的灰色阴影。</p>
-<p>在RGB三原色光模式中，#232323是由13.73％的红色，13.73％的绿色和13.73％的蓝色组成。</p>
-<p>在HSL色彩空间里，#232323有0度的色调，0％的饱和度以及14％的亮度。这种颜色的波长将近0纳米。</p>
+<p>但是但是，还是会有问题在的，比如：</p>
+<ul>
+<li><p>现在RecyclerView是怎么排列的啊？竖着还是横着？是几行几列啊？</p>
+</li>
+<li><p>现在如果我删掉List中的几个Item，界面怎么更新啊？</p>
+</li>
+</ul>
+<p>至于第一个，小G想到了好办法，要想保证每个RecyclerView不同的方向，并且跟数据还没关系，那我就再定一个东西呗，名字就叫LayoutManager，用它来定义通用的几个布局，然后直接让RecyclerView来使用它就好啦！</p>
+<p>第二个，小G就犯难了，这中间有好几个关键的问题</p>
+<ul>
+<li><p>需要知道删掉的是哪个</p>
+</li>
+<li><p>删掉之后在保证数据更新的同时，进行逻辑的再次排序并进行显示</p>
+</li>
+</ul>
+<p>然后…..又延伸出来几个问题</p>
+<ul>
+<li><p>显示的时候肯定不能直接显示啊，至少得有动画，比如竖着5个，删掉第四个，第五个应该是移动上去的，而不是直接整个屏幕刷新</p>
+</li>
+<li><p>动画要定义通用接口，让其他人能自定义动画</p>
+</li>
+<li><p>如果有些内容不在屏幕里面，比如屏幕总共显示了5个，删掉第五个，需要知道第六个的位置（横向还是竖向，一行还是两行）然后在从屏幕的对应位置进入</p>
+</li>
+</ul>
+<p>啊这，啊这</p>
+<p>看来还是得加</p>
+<p>“既然动画的话，就专门加个ItemAnimator吧，然后逻辑跟LayoutManager一样，需要独立性”</p>
+<p>“另一个，我在LayoutManager和ViewHolder之间再加一个缓存Recycler，用这个提前来计算和存储增删改查情况下的布局，到时候只需要从原有布局→动画→缓存布局或者反过来就好啦”</p>
+<p>具体示例如下：</p>
 <p><img src="image_3.png"></p>
-<h2 id="寓意"><a href="#寓意" class="headerlink" title="寓意"></a>寓意</h2><p><img src="image_4.png"></p>
+<p>到现在基本的RecyclerView就完成了！</p>
+<p>小G高兴的去吃饭了</p>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>到这里本文就结束了，希望大家能对RecyclerView能有一个比较好的认识</p>
+<p>不得不说，Google的工程师还是很厉害的，需要不断的学习很多好的思路和逻辑，只有这样才能在未来走出自己的路</p>
+<p>小G-Gredicer</p>
 
     </div>
 
@@ -300,7 +355,7 @@
       <footer class="post-footer">
           
           <div class="post-tags">
-              <a href="/tags/LOGO/" rel="tag"><i class="fa fa-tag"></i>&nbsp LOGO</a>
+              <a href="/tags/Android/" rel="tag"><i class="fa fa-tag"></i>&nbsp Android</a>
           </div>
 
         
@@ -309,13 +364,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/05/29/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
+    <a href="/2021/06/01/Logo%E8%AE%BE%E8%AE%A1/Logo%E8%AE%BE%E8%AE%A1/" rel="prev" title="Logo设计">
+      <i class="fa fa-chevron-left"></i> Logo设计
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2021/06/06/RecyclerView/RecyclerView/" rel="next" title="RecyclerView使用与理解">
-      RecyclerView使用与理解 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
